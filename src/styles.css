@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~animate.css/animate.min';
+
+body{
+    background-color: blue;
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
